@@ -534,9 +534,6 @@ function hmrAcceptRun(bundle, id) {
 },{}],"aitAD":[function(require,module,exports) {
 var _bootstrap = require("bootstrap");
 const collapseElementList = document.querySelectorAll(".collapse");
-const collapseList = [
-    ...collapseElementList
-].map((collapseEl)=>new bootstrap.Collapse(collapseEl));
 
 },{"bootstrap":"h36JB"}],"h36JB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
